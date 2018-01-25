@@ -1,2 +1,3 @@
-# learning
-A place where I post all coding I have for learning purposes.
+# Where I post progress in Web Dev
+
+Check out my sites I'll have up on various platforms in the future!
