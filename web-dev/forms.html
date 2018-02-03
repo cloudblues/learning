@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<!-- action - where the form send data to -->
+<!-- method - what http method (get/post) -->
+
+<!-- <form action="http://wikipedia.org" method="GET"> example with action and method--> 
+<form action="http://wikipedia.org" method="GET">
+
+	<label for="username">Username</label>
+	<input id="username" type="text" name="username" placeholder="username" required>
+	<label for="password">Password</label>
+	<input id="password" type="password" name="password" placeholder="password" required>
+	<label for="email">Email</label>
+	<input type="email" name="email" id="email" placeholder="email@gmail.com">
+
+
+	<input type="submit" name="">
+</form>
+
+<p>Do you prefer cats or dogs?</p>
+
+<form>
+	<label for="dogs">Dogs: </label>
+	<input type="radio" name="petChoice" id="dogs" value="DOGS">
+
+	<label for="cats">Cats: </label>
+	<input type="radio" name="petChoice" id="cats" value="CATS">
+
+	<p>What's your current mood?</p>
+
+	<select name="mood">
+		<option value="happy">:)</option>
+		<option value="neutral">:|</option>
+		<option value="sad">:(</option>
+	</select>
+
+	<input type="text">
+
+	<textarea rows="10" cols="20"></textarea>
+
+	<button>Go!</button>
+</form>
+
+
+
+</body>
+</html>
